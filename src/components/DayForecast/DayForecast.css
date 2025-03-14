@@ -1,3 +1,27 @@
-.DayForecast {
-  /* Estilos para DayForecast */
+.timeline-day {
+  margin-bottom: 1rem;
+}
+
+.timeline-day button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.timeline-day button:focus {
+  outline: none;
+}
+
+.timeline-day .date-text {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.timeline-day hr {
+  margin-top: 1rem;
 }

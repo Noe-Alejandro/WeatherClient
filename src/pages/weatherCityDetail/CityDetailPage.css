@@ -1,5 +1,17 @@
+.back-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+  background: transparent;
+}
 
-.citydetailpage {
-  padding: 20px;
-  background-color: #f4f4f4;
+.page-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.popularity-info {
+  margin-bottom: 20px;
+  text-align: center;
 }
