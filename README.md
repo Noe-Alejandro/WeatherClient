@@ -13,6 +13,7 @@ Este proyecto utiliza variables de entorno definidas en un archivo `.env`. Debes
 
 ```env
 VITE_API_URL=https://localhost:44336/
+```
 
 ## Scripts disponibles
 
