@@ -1,5 +1,33 @@
+.sidebar {
+  padding: 0 !important;
+  margin: 0;
+  width: 260px;
+  box-sizing: border-box;
+}
 
-.weathercitiesbypopularity {
-  padding: 20px;
-  background-color: #f4f4f4;
+.col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.list-group-item {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border: none;
+}
+
+.list-group-item img {
+  margin-right: 10px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+  }
 }
