@@ -1,0 +1,59 @@
+.city-card-button {
+  all: unset;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.city-card-button:focus {
+  outline: none;
+}
+
+.city-card-button:hover {
+  transform: scale(1.05);
+}
+
+.city-card-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #f8f9fa; /* Suave, ayuda al ícono a resaltar */
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.card-text {
+  margin-bottom: 8px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.ms-3 {
+  margin-left: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.flex-column {
+  flex-direction: column;
+}

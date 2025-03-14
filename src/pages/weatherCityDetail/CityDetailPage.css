@@ -1,0 +1,17 @@
+.back-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+  background: transparent;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.popularity-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
